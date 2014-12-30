@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		D388D22C1A51D3090086975F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D22B1A51D3090086975F /* main.m */; };
 		D388D22F1A51D3090086975F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D22E1A51D3090086975F /* AppDelegate.m */; };
-		D388D2321A51D3090086975F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D2311A51D3090086975F /* ViewController.m */; };
-		D388D2351A51D3090086975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D388D2331A51D3090086975F /* Main.storyboard */; };
 		D388D2371A51D3090086975F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D388D2361A51D3090086975F /* Images.xcassets */; };
 		D388D23A1A51D3090086975F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D388D2381A51D3090086975F /* LaunchScreen.xib */; };
 		D388D2461A51D3090086975F /* Adv550Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D2451A51D3090086975F /* Adv550Tests.m */; };
+		D388D2661A51D3740086975F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D25C1A51D3740086975F /* ViewController.m */; };
+		D388D2671A51D3740086975F /* adv00.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D25D1A51D3740086975F /* adv00.c */; };
+		D388D2681A51D3740086975F /* advio.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D25F1A51D3740086975F /* advio.m */; };
+		D388D2691A51D3740086975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D388D2601A51D3740086975F /* Main.storyboard */; };
+		D388D26A1A51D3740086975F /* adv01.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D2631A51D3740086975F /* adv01.c */; };
+		D388D2741A51D3970086975F /* adv02.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D26B1A51D3970086975F /* adv02.c */; };
+		D388D2751A51D3970086975F /* adv03.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D26D1A51D3970086975F /* adv03.c */; };
+		D388D2761A51D3970086975F /* adv04.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D26F1A51D3970086975F /* adv04.c */; };
+		D388D2771A51D3970086975F /* adv05.c in Sources */ = {isa = PBXBuildFile; fileRef = D388D2711A51D3970086975F /* adv05.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +40,31 @@
 		D388D22D1A51D3090086975F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D388D22E1A51D3090086975F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D388D2301A51D3090086975F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D388D2311A51D3090086975F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D388D2341A51D3090086975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D388D2361A51D3090086975F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D388D2391A51D3090086975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D388D23F1A51D3090086975F /* Adv550Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adv550Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D388D2441A51D3090086975F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D388D2451A51D3090086975F /* Adv550Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adv550Tests.m; sourceTree = "<group>"; };
+		D388D25C1A51D3740086975F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../AdvIOS/AdvIOS/ViewController.m; sourceTree = "<group>"; };
+		D388D25D1A51D3740086975F /* adv00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv00.c; path = ../../AdvIOS/AdvIOS/adv00.c; sourceTree = "<group>"; };
+		D388D25E1A51D3740086975F /* ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ios.h; path = ../../AdvIOS/AdvIOS/ios.h; sourceTree = "<group>"; };
+		D388D25F1A51D3740086975F /* advio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = advio.m; path = ../../AdvIOS/AdvIOS/advio.m; sourceTree = "<group>"; };
+		D388D2601A51D3740086975F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../AdvIOS/AdvIOS/Main.storyboard; sourceTree = "<group>"; };
+		D388D2611A51D3740086975F /* adv0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv0.h; path = ../../AdvIOS/AdvIOS/adv0.h; sourceTree = "<group>"; };
+		D388D2631A51D3740086975F /* adv01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv01.c; path = ../../AdvIOS/AdvIOS/adv01.c; sourceTree = "<group>"; };
+		D388D2641A51D3740086975F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../AdvIOS/AdvIOS/ViewController.h; sourceTree = "<group>"; };
+		D388D2651A51D3740086975F /* advio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = advio.h; path = ../../AdvIOS/AdvIOS/advio.h; sourceTree = "<group>"; };
+		D388D26B1A51D3970086975F /* adv02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adv02.c; sourceTree = "<group>"; };
+		D388D26C1A51D3970086975F /* adv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv2.h; sourceTree = "<group>"; };
+		D388D26D1A51D3970086975F /* adv03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adv03.c; sourceTree = "<group>"; };
+		D388D26E1A51D3970086975F /* adv3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv3.h; sourceTree = "<group>"; };
+		D388D26F1A51D3970086975F /* adv04.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adv04.c; sourceTree = "<group>"; };
+		D388D2701A51D3970086975F /* adv4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv4.h; sourceTree = "<group>"; };
+		D388D2711A51D3970086975F /* adv05.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adv05.c; sourceTree = "<group>"; };
+		D388D2721A51D3970086975F /* adv5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv5.h; sourceTree = "<group>"; };
+		D388D2731A51D3970086975F /* adv6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv6.h; sourceTree = "<group>"; };
+		D388D2781A51D3C80086975F /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		D388D27A1A51DCD40086975F /* adv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adv1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +106,29 @@
 		D388D2281A51D3090086975F /* Adv550 */ = {
 			isa = PBXGroup;
 			children = (
+				D388D25C1A51D3740086975F /* ViewController.m */,
+				D388D25D1A51D3740086975F /* adv00.c */,
+				D388D25E1A51D3740086975F /* ios.h */,
+				D388D25F1A51D3740086975F /* advio.m */,
+				D388D2601A51D3740086975F /* Main.storyboard */,
+				D388D2611A51D3740086975F /* adv0.h */,
+				D388D2631A51D3740086975F /* adv01.c */,
+				D388D2641A51D3740086975F /* ViewController.h */,
+				D388D2651A51D3740086975F /* advio.h */,
 				D388D22D1A51D3090086975F /* AppDelegate.h */,
 				D388D22E1A51D3090086975F /* AppDelegate.m */,
 				D388D2301A51D3090086975F /* ViewController.h */,
-				D388D2311A51D3090086975F /* ViewController.m */,
-				D388D2331A51D3090086975F /* Main.storyboard */,
+				D388D26B1A51D3970086975F /* adv02.c */,
+				D388D2781A51D3C80086975F /* version.h */,
+				D388D27A1A51DCD40086975F /* adv1.h */,
+				D388D26C1A51D3970086975F /* adv2.h */,
+				D388D26D1A51D3970086975F /* adv03.c */,
+				D388D26E1A51D3970086975F /* adv3.h */,
+				D388D26F1A51D3970086975F /* adv04.c */,
+				D388D2701A51D3970086975F /* adv4.h */,
+				D388D2711A51D3970086975F /* adv05.c */,
+				D388D2721A51D3970086975F /* adv5.h */,
+				D388D2731A51D3970086975F /* adv6.h */,
 				D388D2361A51D3090086975F /* Images.xcassets */,
 				D388D2381A51D3090086975F /* LaunchScreen.xib */,
 				D388D2291A51D3090086975F /* Supporting Files */,
@@ -199,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D388D2351A51D3090086975F /* Main.storyboard in Resources */,
+				D388D2691A51D3740086975F /* Main.storyboard in Resources */,
 				D388D23A1A51D3090086975F /* LaunchScreen.xib in Resources */,
 				D388D2371A51D3090086975F /* Images.xcassets in Resources */,
 			);
@@ -219,8 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D388D2321A51D3090086975F /* ViewController.m in Sources */,
+				D388D2661A51D3740086975F /* ViewController.m in Sources */,
+				D388D2681A51D3740086975F /* advio.m in Sources */,
+				D388D2771A51D3970086975F /* adv05.c in Sources */,
+				D388D2671A51D3740086975F /* adv00.c in Sources */,
+				D388D2761A51D3970086975F /* adv04.c in Sources */,
+				D388D2741A51D3970086975F /* adv02.c in Sources */,
 				D388D22F1A51D3090086975F /* AppDelegate.m in Sources */,
+				D388D26A1A51D3740086975F /* adv01.c in Sources */,
+				D388D2751A51D3970086975F /* adv03.c in Sources */,
 				D388D22C1A51D3090086975F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +294,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D388D2331A51D3090086975F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D388D2341A51D3090086975F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D388D2381A51D3090086975F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,7 +388,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Adv550/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_CFLAGS[arch=*]" = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,7 +400,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Adv550/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_CFLAGS[arch=*]" = "-DIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
