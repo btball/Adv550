@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30BDCA31A5490CB00639145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D388D2601A51D3740086975F /* Main.storyboard */; };
+		D30BDCA41A5490D500639145 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D388D2381A51D3090086975F /* LaunchScreen.xib */; };
+		D30BDCA51A5490DE00639145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D388D2361A51D3090086975F /* Images.xcassets */; };
 		D331B40B1A5309570097A910 /* adv03.c in Sources */ = {isa = PBXBuildFile; fileRef = D331B4031A5309570097A910 /* adv03.c */; };
 		D331B40C1A5309570097A910 /* adv04.c in Sources */ = {isa = PBXBuildFile; fileRef = D331B4051A5309570097A910 /* adv04.c */; };
 		D331B40D1A5309570097A910 /* adv05.c in Sources */ = {isa = PBXBuildFile; fileRef = D331B4071A5309570097A910 /* adv05.c */; };
@@ -15,12 +18,9 @@
 		D331B4141A530B860097A910 /* adv01.c in Sources */ = {isa = PBXBuildFile; fileRef = D331B4121A530B860097A910 /* adv01.c */; };
 		D388D22C1A51D3090086975F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D22B1A51D3090086975F /* main.m */; };
 		D388D22F1A51D3090086975F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D22E1A51D3090086975F /* AppDelegate.m */; };
-		D388D2371A51D3090086975F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D388D2361A51D3090086975F /* Images.xcassets */; };
-		D388D23A1A51D3090086975F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D388D2381A51D3090086975F /* LaunchScreen.xib */; };
 		D388D2461A51D3090086975F /* Adv550Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D2451A51D3090086975F /* Adv550Tests.m */; };
 		D388D2661A51D3740086975F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D25C1A51D3740086975F /* ViewController.m */; };
 		D388D2681A51D3740086975F /* advio.m in Sources */ = {isa = PBXBuildFile; fileRef = D388D25F1A51D3740086975F /* advio.m */; };
-		D388D2691A51D3740086975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D388D2601A51D3740086975F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30BDCA21A548AF200639145 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		D331B4001A5309570097A910 /* adv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv1.h; path = ../adv1.h; sourceTree = "<group>"; };
 		D331B4021A5309570097A910 /* adv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adv2.h; path = ../adv2.h; sourceTree = "<group>"; };
 		D331B4031A5309570097A910 /* adv03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adv03.c; path = ../adv03.c; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		D388D2601A51D3740086975F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../AdvIOS/AdvIOS/Main.storyboard; sourceTree = "<group>"; };
 		D388D2641A51D3740086975F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../AdvIOS/AdvIOS/ViewController.h; sourceTree = "<group>"; };
 		D388D2651A51D3740086975F /* advio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = advio.h; path = ../../AdvIOS/AdvIOS/advio.h; sourceTree = "<group>"; };
-		D388D2781A51D3C80086975F /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,7 @@
 				D388D2601A51D3740086975F /* Main.storyboard */,
 				D388D2641A51D3740086975F /* ViewController.h */,
 				D388D2651A51D3740086975F /* advio.h */,
+				D30BDCA21A548AF200639145 /* version.h */,
 				D388D22D1A51D3090086975F /* AppDelegate.h */,
 				D388D22E1A51D3090086975F /* AppDelegate.m */,
 				D388D2301A51D3090086975F /* ViewController.h */,
@@ -128,7 +129,6 @@
 				D331B4071A5309570097A910 /* adv05.c */,
 				D331B4081A5309570097A910 /* adv5.h */,
 				D331B4091A5309570097A910 /* adv6.h */,
-				D388D2781A51D3C80086975F /* version.h */,
 				D388D2361A51D3090086975F /* Images.xcassets */,
 				D388D2381A51D3090086975F /* LaunchScreen.xib */,
 				D388D2291A51D3090086975F /* Supporting Files */,
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D388D2691A51D3740086975F /* Main.storyboard in Resources */,
-				D388D23A1A51D3090086975F /* LaunchScreen.xib in Resources */,
-				D388D2371A51D3090086975F /* Images.xcassets in Resources */,
+				D30BDCA51A5490DE00639145 /* Images.xcassets in Resources */,
+				D30BDCA41A5490D500639145 /* LaunchScreen.xib in Resources */,
+				D30BDCA31A5490CB00639145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
